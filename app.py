@@ -3,11 +3,10 @@ import os
 import base64
 import tempfile
 import pandas as pd
-import docx
+from docx import Document   
 import numpy as np
 import queue
 import soundfile as sf
-
 from dotenv import load_dotenv
 from openai import OpenAI
 from pypdf import PdfReader
