@@ -4,7 +4,7 @@ python-dotenv
 pandas
 pillow
 pypdf
-python-docx
+python-docx==0.8.11
 openpyxl
 gtts
 streamlit-webrtc
